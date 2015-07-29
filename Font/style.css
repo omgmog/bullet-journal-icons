@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'Bullet-Journal-Icons';
+	src:url('fonts/Bullet-Journal-Icons.eot?-42cd8s');
+	src:url('fonts/Bullet-Journal-Icons.eot?#iefix-42cd8s') format('embedded-opentype'),
+		url('fonts/Bullet-Journal-Icons.ttf?-42cd8s') format('truetype'),
+		url('fonts/Bullet-Journal-Icons.woff?-42cd8s') format('woff'),
+		url('fonts/Bullet-Journal-Icons.svg?-42cd8s#Bullet-Journal-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'Bullet-Journal-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Event:before {
+	content: "\6f";
+}
+.icon-Explore:before {
+	content: "\65";
+}
+.icon-Inspiration:before {
+	content: "\21";
+}
+.icon-Note:before {
+	content: "\2d";
+}
+.icon-Priority:before {
+	content: "\2a";
+}
+.icon-TaskComplete:before {
+	content: "\78";
+}
+.icon-TaskMigrated:before {
+	content: "\3e";
+}
+.icon-TaskScheduled:before {
+	content: "\3c";
+}
+.icon-Task:before {
+	content: "\2e";
+}
